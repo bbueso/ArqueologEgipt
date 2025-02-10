@@ -2,24 +2,24 @@ p{
 	color: rgb(63, 46, 46);
 	width: 500px;
 	text-align:left;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
-ul{
+/* ul{
 	color: green;
 }
 p,h1{
 	color: black;
-}
+} */
 
 h1{
 	font-size: 60px;
 	text-align: center;
 }
-p,li{
+/* p,li{
 	font-size: 16px;
 	line-height: 2;
 	letter-spacing: 1px;
-}
+} */
 
 html{
 	font-family: "Dancing Script", cursive;
@@ -29,37 +29,56 @@ body{
 	width: 700px;
 	margin: 0 auto;
 	padding: 0 20px 20px 20px;
-	border: 2px solid black;
+	/* border: 2px solid black; */
 }
 h1{
 	margin: 0;
-	color: #72808c;
+	color: #888b73;
 	text-shadow: 3px 3px 1px black;
+
 }
 h2{
-	margin: 0;
-	color: #72808c;
-	text-shadow: 3px 3px 1px black;
+	font-size: small;
+	/* margin: 0; */
+	color: #393a3b;
+	/* text-shadow: 3px 3px 1px black; */
+
+}
+
+h3{
+	font-size: small;
+	/* margin: 0; */
+	color: #2f3132;
+	/* text-shadow: 3px 3px 1px black; */
 }
 
 img{
+
 	display: block;
 	margin: 0 auto;
+
 }
 
-p1{
+/* p1{
 	text-align: center;
 	border: 1px solid black;
 	align-content: center;
 }
 p2{
 	text-align: center;
+} */
+
+body {
+
+	justify-content: center;
+	text-align: center;
+	font-family: cursive;
+	
 }
 
-
-.dancing-script-<uniquifier> {
+/* .dancing-script-<uniquifier> {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-}
+} */
